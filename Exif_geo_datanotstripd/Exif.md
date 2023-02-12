@@ -1,0 +1,24 @@
+
+Vulnerability Name:- EXIF Geolocation Data Not Stripped From Uploaded Profile Images (vulnerability)
+
+What is EXIF:-
+
+EXIF is short for Exchangeable Image File, a format that is a standard for storing interchange information in digital photography image files using JPEG compression. Almost all new digital cameras use the EXIF annotation, storing information on the image such as shutter speed, exposure compensation, F number, what metering system was used, if a flash was used, ISO number, date and time the image was taken, white balance, auxiliary lenses that were used and resolution. Some images may even store GPS information so you can easily see where the images were taken!
+
+Impact:-
+
+This vulnerability is CRITICAL and impacts all the firstcry.com customer base. This vulnerability violates the privacy of a User and shares sensitive information of the user who uploads profile images on firstcry.com.
+
+ 
+##Steps to reproduce:-
+
+1) Go to (https://www.target.com)
+2) Go to the Account & Select Profile Picture (that contain geo infromations)Upload the profile picture 
+3) Now open the picture in a new tab and copy the image Url  (https://target.com/1660331491041-DSCN0042.jpg)
+4) Open (https://jimpl.com/)  this is an online EXIF data viewer
+5) Paste the image URL on  (https://jimpl.com/) you see the image EXIF data.
+6) See wheather is that still showing exif data , if it is then Report it.
+
+## This Github Repository for Images 
+--> https://github.com/ianare/exif-samples/tree/master/jpg
+ 
