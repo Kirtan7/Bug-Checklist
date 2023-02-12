@@ -1,2 +1,2 @@
 # Bug-Checklist
-This Biggner Leval Bugs Checklist 
+This Is Biggner Leval Bugs Checklist 
