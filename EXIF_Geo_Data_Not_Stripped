@@ -9,7 +9,7 @@ Impact:-
 This vulnerability is CRITICAL and impacts all the firstcry.com customer base. This vulnerability violates the privacy of a User and shares sensitive information of the user who uploads profile images on firstcry.com.
 
  
-##Steps to reproduce:-
+**Steps to reproduce:-**
 
 1) Go to (https://www.target.com)
 2) Go to the Account & Select Profile Picture (that contain geo infromations)Upload the profile picture 
